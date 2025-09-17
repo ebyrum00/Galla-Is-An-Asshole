@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem 'httparty', '~> 0.23.1'
+gem 'nokogiri'
+gem 'csv'
+
+ruby File.read(".ruby-version").strip
